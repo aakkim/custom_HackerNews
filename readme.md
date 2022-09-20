@@ -8,6 +8,7 @@ https://user-images.githubusercontent.com/86211541/191321877-f2487a5f-db67-4744-
 
 
 ## Requirements
+To run this project, you will need to install:
 - beautifulsoup4 module: will need to be installed as it's not a built-in module
     > pip install beautifulsoup4
 - requests module: will need to be installed as it's not a built-in module
@@ -15,6 +16,9 @@ https://user-images.githubusercontent.com/86211541/191321877-f2487a5f-db67-4744-
 - pprint module: a built-in module of python and does not require installation
 
 ## Instructions
-Run the script in your terminal/cmd prompt by typing in python3 scrape.py
+- clone this repository: `git clone REPO_URL`
+- navigate into this project's directory: `cd custom_HackerNews`
+- install the necessary packages in a virtual environment or on your computer
+- Run the script in your terminal/cmd prompt by `typing in python3 scrape.py`
 
 The output will show you the news with 100 votes or more with its' title, news link, and the number of votes. They are ordered from the highest number of votes to the lowest number of votes.
